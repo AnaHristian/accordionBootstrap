@@ -1,0 +1,138 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800|Roboto+Slab:400,100,300,700);
+
+/**  Basic Page CSS **/
+body{
+  font-family: "Roboto Slab", sans-serif;
+  font-weight: 300;
+  font-size: 2em;
+  position: relative;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+  margin: 0;
+}
+
+/** Page -- Statut AJVPS **/	
+#customBootstrap {
+	background-color: darken(#00728e, 20%);
+	h2 {
+		margin-top: 50px;
+		margin-bottom: 50px;
+		.glyphicon {
+			-moz-transition: -moz-transform 0.5s ease-in-out;
+			-o-transition: -o-transform 0.5s ease-in-out;
+			-webkit-transition: -webkit-transform 0.5s ease-in-out;
+			transition: transform 0.5s ease-in-out;
+			}
+		.glyphicon:hover {
+			-webkit-transform: rotate(-360deg);
+			-moz-transform: rotate(-360deg);
+			transform: rotate(-360deg);
+			}	
+		}
+			
+	.border-statut {
+		background-color:white;
+		}	
+	.panel {
+			a {
+				display: block;
+				font-weight:400;
+				font-size: 16px;
+				color:#173543; 
+				-webkit-transition: font-size .5s ease, color .5s ease;
+				-moz-transition: font-size .5s ease, color .5s ease;
+				-o-transition: font-size .5s ease, color .5s ease;
+				transition: font-size .5s ease, color .5s ease; 
+				}
+		
+	
+		a:link, a:hover, a:active, a:focus {
+			/*color: darken(#31708f, 20%); 	*/		
+			text-decoration: none;
+			}
+		a:hover {
+			font-size: 20px;
+			color: white;
+			} 	
+		.panel-heading {	
+			transition-property: background;
+			-webkit-transition-property: background;
+			-moz-transition-property: background;
+			-o-transition-property: background;
+			-ms-transition-property: background;
+			transition-duration: 1s;
+			-webkit-transition-duration: 1s;
+			-moz-transition-duration: 1s;
+			-o-transition-duration: 1s;
+			-ms-transition-duration: 1s;
+			}
+		.panel-heading:hover {
+			background-color: #ff3c1f;
+			}	
+		li {
+			text-align: justify;
+			padding-right: 15px;
+			}
+		.panel-body {
+			background-color: lighten(#d9edf7, 8%);
+			}
+		}
+	}
+		
+	
+/** **/
+
+#customBootstrap { 
+	background-color: darken(#00728e, 20%);
+	.border-customBootstrap {
+		background-color:white;
+		}
+}
+
+ /**top anchor*/ 
+p.top2 {
+	margin: 15px 15px 0 0;
+	} 
+ 
+a.btn-info.top1  {
+	border-radius: 50%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	transition-property: background;
+	-webkit-transition-property: background;
+	-moz-transition-property: background;
+	-o-transition-property: background;
+	-ms-transition-property: background;
+	transition-duration: 1s;
+	-webkit-transition-duration: 1s;
+	-moz-transition-duration: 1s;
+	-o-transition-duration: 1s;
+	-ms-transition-duration: 1s;
+	} 
+
+/**  Footer **/
+
+footer {
+  background: #0d0f0d !important;
+  min-height: 250px;
+  font-size: .8em;
+  padding: 20px 0 40px 0;	
+  color: white;
+
+	a {
+	  color: #879B87;
+	}
+	
+	a:hover {
+	  color: lighten(#879B87, 20%) !important;
+	  text-decoration:none;
+	}
+	
+	nav ul {
+		margin-top: 50px;
+		}
+  }	 
+	
