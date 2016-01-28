@@ -6,9 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">  
   <title>Code Snippet Custom Bootstrap Accordion</title>
-  <meta name="description" content="">
+  <meta name="description" content="Code Snippet Custom Bootstrap Accordion Panel">
   <meta name="author" content="Ana Hristian">
-  <link rel="stylesheet" href="../css/style.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   <link rel="stylesheet" href="css/accordionBootstrap.css">
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
