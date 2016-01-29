@@ -93,5 +93,5 @@
     		
           </div><!--row-->  
     </div>      
-  </div><!--content container-fluid-->    
-</div><!--legi-pescuit-->
+  </div><!--content container-->    
+</div><!---->

@@ -14,7 +14,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .page {
-    padding: 50px 0;
+  padding: 50px 0;
 }
 
 /** Page **/
@@ -28,14 +28,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #customBootstrap h2 .glyphicon {
+  -moz-transition: -moz-transform 0.5s ease-in-out;
+  -o-transition: -o-transform 0.5s ease-in-out;
   -webkit-transition: -webkit-transform 0.5s ease-in-out;
   transition: transform 0.5s ease-in-out;
 }
 
 #customBootstrap h2 .glyphicon:hover {
   -webkit-transform: rotate(-360deg);
-  -ms-transform: rotate(-360deg);
-      transform: rotate(-360deg);
+  -moz-transform: rotate(-360deg);
+  transform: rotate(-360deg);
 }
 
 #customBootstrap .border-statut {
@@ -48,6 +50,8 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 16px;
   color: #173543;
   -webkit-transition: font-size 0.5s ease, color 0.5s ease;
+  -moz-transition: font-size 0.5s ease, color 0.5s ease;
+  -o-transition: font-size 0.5s ease, color 0.5s ease;
   transition: font-size 0.5s ease, color 0.5s ease;
 }
 
@@ -85,6 +89,21 @@ h1, h2, h3, h4, h5, h6 {
 
 #customBootstrap .panel .panel-body {
   background-color: #fbfdfe;
+}
+
+#customBootstrap .panel h4 {
+  font-weight: 400;
+  text-align: justify;
+  font-size: 18px;
+  margin: 15px 0;
+}
+
+#customBootstrap .panel .square {
+  list-style-type: square;
+}
+
+#customBootstrap .panel .typeA {
+  list-style-type: lower-alpha;
 }
 
 /** **/
